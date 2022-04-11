@@ -1,0 +1,87 @@
+.flex-container {
+    display: flex;
+    border:1px solid black;
+}
+
+.flex-item {
+    border:1px solid blue;
+    margin:20px;
+}
+
+.flex-inline-container {
+    display: inline-flex;
+    border:1px solid black;
+}
+
+.flex-direction-container {
+    display: flex;
+    border:1px solid black;
+    flex-direction: row-reverse;
+}
+
+.flex-column-container {
+    display: flex;
+    border:1px solid black;
+    flex-direction: column;
+}
+
+.flex-column-re-container {
+    display: flex;
+    border:1px solid black;
+    flex-direction: column-reverse;
+
+}
+
+.flex-wrap-container {
+    display: flex;
+    border:1px solid black;
+    flex-wrap: wrap;
+
+}
+.flex-wrap-re-container {
+    display: flex;
+    border:1px solid black;
+    flex-wrap: wrap-reverse;
+
+}
+
+.flex-flow-container {
+    display: flex;
+    height: 200px;
+    border:1px solid black;
+    flex-flow: wrap;
+
+}
+
+.flex-justify-container {
+    display: flex;
+    border:1px solid black;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+
+}
+
+.flex-aligin-container {
+    display: flex;
+    border:1px solid black;
+    height: 200px;
+    align-items: flex-start;
+
+}
+
+.flex-aligin-s-container {
+    display: flex;
+    border:1px solid black;
+    height: 200px;
+    align-items: center;
+
+}
+
+.flex-aligin-cont-container {
+    display: flex;
+    border:1px solid black;
+    height: 200px;
+    flex-flow: wrap;
+    align-content: stretch;
+}
